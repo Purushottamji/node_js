@@ -7,6 +7,11 @@ app.get("/user",(req,res)=>{
     res.status(200).json({'message':"user created"});
 })
 
+app.post("/create_user",(req,res)=>{
+    const {name,email}=req.body;
+    res.status(201).json({"name":name,"email":email});
+})
+
 app.listen(5421,(error)=>{
     console.log("error:-" + error);
 })
