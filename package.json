@@ -1,0 +1,25 @@
+{
+  "name": "create-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create_api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node create_api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purushottamji/node_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Purushottamji/node_js/issues"
+  },
+  "homepage": "https://github.com/Purushottamji/node_js#readme"
+}
