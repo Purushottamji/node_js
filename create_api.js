@@ -26,7 +26,6 @@ app.post("/create_user", (req, res) => {
 app.put("/update_user/:id", (req, res) => {
     const id = req.params.id;
     //const {name,email}=req.body;
-    res.status(200).json({"message":"updated","name":"jacky","email":"jacky@gmail.com","id":id});
     res.status(200).json({ "message": "updated", "name": "jacky", "email": "jacky@gmail.com", "id": id });
 })
 
